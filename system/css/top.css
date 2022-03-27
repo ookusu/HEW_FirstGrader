@@ -1,0 +1,136 @@
+@charset "utf-8";
+
+/* 共通のスタイル */
+
+body{
+  text-align: left;
+  color: #000;
+  background-image: url(../images/back_3.png);
+}
+
+div#wrap{
+  width: 800px;
+  height: auto;
+  margin: auto;
+  padding: 0 0 35px 0;
+  text-align: center;
+  background-color: #fff;
+}
+
+header{
+  margin: -13px 0 0 15px;
+  width: 200px;
+  position: fixed;
+}
+
+header img{
+  width: 100%;
+}
+
+a.a input[type='button']{
+    width: 80px;
+    height: 40px;
+    /* position: relative;
+    top: 10px;
+    right: 0px; */
+    margin-bottom: 50px;
+    float: left;
+    color: #000;
+    background: #ECECEC;
+    border-radius: 20px 8px 8px 20px;
+    transition: 0.7s;
+}
+
+a.a input[type='button']:hover{
+    color: #ECECEC;
+    background: #000;
+}  
+
+div.submit_top{
+    padding: 20px;
+}
+
+/* input[type='button']{
+  margin: 70px 0 0 0;
+  padding: 3px 5px;
+  color: #000;
+  background: #ECECEC;
+  border-radius: 3px 3px 3px 3px;
+  transition: 0.7s;
+}
+
+input[type='button']:hover{
+  color: #ECECEC;
+  background: #000;
+} */
+
+div.top{
+  display: block;
+  width: auto;
+  position: relative;
+  margin: 35px 0 0 0;
+  padding: 32px 0 0 0;
+  text-align: left;
+   font-size: 20px; 
+  border-top: double 3px #ccc;
+}
+
+div.top p{
+  padding: 0 10px;
+}
+
+div.top input[type='submit']{
+    width: 60px;
+    height: 30px;
+    /* position: relative;
+    top: 10px;
+    right: 0px; */
+    margin: 0 5px 0 0;
+    float: right;
+    color: #000;
+    background: #ECECEC;
+    border-radius: 20px;
+    transition: 0.7s;
+  }
+  
+  div.top input[type='submit']:hover{
+    color: #ECECEC;
+    background: #000;
+  }
+  
+  div.toukou input[type="submit"]{
+    width: 80px;
+    height: 40px;
+    /* position: relative;
+    top: 10px;
+    right: 0px; */
+    margin-bottom: 50px;
+    float: right;
+    color: #000;
+    background: #ECECEC;
+    border-radius: 8px 20px 20px 8px;
+    transition: 0.7s;
+  }
+  
+div.toukou input[type="submit"]:hover{
+    color: #ECECEC;
+    background: #000;
+  }
+  
+  div.sa-ti input[type="submit"]{
+    width: 80px;
+    height: 40px;
+    margin-bottom: 50px;
+    float: right;
+    color: #000;
+    background: #ECECEC;
+    border-radius: 8px;
+    transition: 0.7s;
+  }
+  
+div.sa-ti input[type="submit"]:hover{
+    color: #ECECEC;
+    background: #000;
+  }
+  
+    

@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+/* 共通のスタイル */
+
+body{
+  text-align: left;
+  color: #000;
+  background-image: url(../images/back_3.png);
+}
+
+div#wrap{
+  width: 800px;
+  height: 780px;
+  margin: auto;
+  padding-top: 200px;
+  text-align: center;
+  background-color: #fff;
+}
+
+header{
+  margin: -13px 0 0 15px;
+  width: 200px;
+  position: fixed;
+}
+
+header img{
+  width: 100%;
+}
+
+/* h1{
+  padding: 200px 0 0 0;
+} */
+
+input[type='submit']{
+  margin-top: 50px;
+  padding: 3px 5px;
+  color: #000;
+  background: #ECECEC;
+  border-radius: 15px 15px 15px 15px;
+  transition: 0.7s;
+}
+
+input[type='submit']:hover{
+  color: #ECECEC;
+  background: #000;
+}
+

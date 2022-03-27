@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+/* 共通のスタイル */
+
+body{
+  text-align: left;
+  color: #000;
+  background-image: url(../images/back_3.png);
+}
+
+div#wrap{
+  width: 800px;
+  height: auto;
+  margin: auto;
+  padding: 0 0 35px 0;
+  text-align: center;
+  background-color: #fff;
+}
+
+header{
+  margin: -13px 0 0 15px;
+  width: 200px;
+  position: fixed;
+}
+
+header img{
+  width: 100%;
+}
+
+h1{
+  position: relative;
+  top: 30px;
+  left: 250px;
+  display: block;
+  width: 300px;
+  font-size: 200%;
+  color: #ccc;
+  border-bottom: #ccc 3px solid;
+}
+
+input[type='button']{
+  margin: 70px 0 0 0;
+  padding: 3px 5px;
+  color: #000;
+  background: #ECECEC;
+  border-radius: 3px 3px 3px 3px;
+  transition: 0.7s;
+}
+
+input[type='button']:hover{
+  color: #ECECEC;
+  background: #000;
+}
+
+div.kigyou{
+  display: block;
+  width: 400px;
+  position: relative;
+  left: 200px;
+  margin: 35px 0 0 0;
+  padding: 32px 0 0 0;
+  text-align: left;
+  border-top: double 3px #ccc;
+  font-size: 30px;
+}
+
+input[type='submit']{
+  width: 80px;
+  height: 80px;
+  /* position: relative;
+  top: 10px;
+  right: 0px; */
+  margin-top: -23px;
+  float: right;
+  color: #000;
+  background: #ECECEC;
+  border-radius: 40px;
+  transition: 0.7s;
+}
+
+input[type='submit']:hover{
+  color: #ECECEC;
+  background: #000;
+}
+
